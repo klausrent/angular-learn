@@ -16,7 +16,7 @@ import productDetailsComponentCss from './product-details/product-details.compon
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'product/:productId', component: ProductDetailsComponent},
+      { path: 'products/:productId', component: ProductDetailsComponent },
     ])
   ],
   declarations: [
